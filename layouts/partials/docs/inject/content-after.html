@@ -1,0 +1,14 @@
+<nav class="footnav">
+   {{ if .Prev }}
+      {{ with .Prev }}
+         <a class="next" href="{{.Permalink}}">Next Lesson: {{ .Title }}</a>
+      {{ end }}
+   {{ end }}
+   <div class="prev">
+      {{ if .Next }}
+         {{ with .Next }}
+            Previous Lesson: <a href="{{.Permalink}}">{{ .Title }}</a>
+         {{ end }}
+      {{ end }}
+   </div>
+</nav>

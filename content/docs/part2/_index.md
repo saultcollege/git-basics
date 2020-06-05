@@ -1,4 +1,4 @@
 ---
-title: "Part 2 — Beyond the Basics"
+title: "Part 2 — Distributed VCS Basics"
 weight: 20
 ---

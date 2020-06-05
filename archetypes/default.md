@@ -4,3 +4,4 @@ date: {{ .Date }}
 draft: true
 ---
 
+# {{ replace .Name "-" " " | title }}

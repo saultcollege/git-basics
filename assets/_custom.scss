@@ -1,40 +1,64 @@
-.sqldiagram {
-    border-left: .25rem solid #e9ecef;
-    border-radius: .15rem;
+.footnav {
+    
+    margin-top: 3rem;
+
+    .next {
+        border: 1px solid $color-link;
+        display: block;
+        font-size: larger;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        position: relative;
+
+        &:hover {
+            background-color: $color-link;
+            color: $white;
+        }
+
+        &::after {
+            content: '↦' /*'›'*/;
+            font-size: 70px;
+            line-height: 4.6rem;
+            margin-right: 2rem;
+            position: absolute;
+            top: 0; bottom: 0;
+            right: 0;
+        }
+    }
+
 }
 
-.sqldiagram > p {
-    padding-left: 1em;
-    padding-top: 0.5rem;
+figure {
+    font-size: 10px;
+    line-height: 1.3;
 }
 
-.sqldiagram > p:first-child > strong {
-    color:
-    rgba(0,0,0,0.5);
-    font-weight: lighter;
-    display: inline-block;
+.footnote {
+    font-size: 12px;
 }
 
-.book-hint .sqldiagram {
-    border-left: none;
-    margin-left: -0.75rem;
-    margin-right: -1rem;
+blockquote.action {
+    background-color: #e9f4e9;
+    border-left-color: #4bb745;
+
+    pre {
+        background-color: #000000C4 !important;
+    }
+
+    &::before {
+        content: "Activity...";
+        display: block;
+        font-weight: bold;
+    }
 }
 
-.sqldiagram .highlight ~ p {
-    padding-left: 1em;
-    font-size: smaller;
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+    color: #ff470f;
 }
 
-.sqldiagram .highlight ~ p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.sqldiagram .highlight ~ p:first-of-type {
-    border-top: 1px solid #e9ecef;
-    margin-top: -1em;
-}
-.sqldiagram .highlight ~ p:last-of-type {
-    padding-bottom: 1em;
+.markdown a:visited {
+    color: #00316c;
 }
