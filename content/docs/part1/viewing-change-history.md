@@ -23,37 +23,37 @@ Show the change history for your repository:
 $ git log
 
 commit 8916e313a6fa3b38ba8674d1b2a7635f4581ef17
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Tue May 23 16:56:18 2020 -0400
 
     Made some content changes
 
 commit 9d52001ee1d4c3acafb3ed78a4d7150f69f604a0
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Tue May 22 16:56:18 2020 -0400
 
     Added more files and text
 
 commit 7d7596afd8f34ed4e393472ab66842ef9f0d6fbf (HEAD -> master)
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Thu May 21 10:56:08 2020 -0400
 
     Added another change tracking description
 
 commit 312fabf299fbb0db418f2e7b941cb485b5c37826
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Thu May 21 10:51:43 2020 -0400
 
     Added a description about Git change tracking
 
 commit 3f216521b6355ee4e767e7bee78f5ea6a9a31dab
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Mon May 18 14:07:28 2020 -0400
 
     Added brief description
 
 commit 17f96677bef6833850eeaa5d4a7d01828a71a3c0
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Thu May 14 14:52:20 2020 -0400
 
     Initial commit

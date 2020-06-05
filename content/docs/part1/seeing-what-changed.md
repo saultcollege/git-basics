@@ -29,7 +29,7 @@ Show the changes in the most recent commit:
 ```text
 $ git show
 commit 7d7596afd8f34ed4e393472ab66842ef9f0d6fbf (HEAD -> master)
-Author: Rodney Martin <rod@pennyjar.ca>
+Author: Rodney Martin <rod@email.com>
 Date:   Thu May 21 10:56:08 2020 -0400
 
     Added another change tracking description
