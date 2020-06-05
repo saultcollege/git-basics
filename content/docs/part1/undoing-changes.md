@@ -110,7 +110,7 @@ A `git status` should show that there are now no staged or unstaged changes in `
 
 ## Restoring Specific Commits
 
-You can use the `--source` option to a source from which to restore (the default when `--source` is not specified is the index).  This option in combination with the `--staged` or `--worktree` options will copy the source revision into the respective destination.
+You can use the `--source` option to choose a source from which to restore (the default when `--source` is not specified is the index).  This option in combination with the `--staged` and/or `--worktree` options will copy the source revision into the respective destination.
 
 ### Restore the Most Recent Revision Into the Working Tree
 
