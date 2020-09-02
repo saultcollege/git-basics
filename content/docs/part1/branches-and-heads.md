@@ -56,9 +56,11 @@ When you run `git commit` a new commit object is created that points to the comm
 **NOTE:** The [Explain Git with D3](http://onlywei.github.io/explain-git-with-d3/#commit) web page was used to create the above animation.  It is also a helpful learning tool that you may use!
 {{< /hint >}}
 
-For now we will stick with the single default `master` branch, but as a preview to get you excited: you will eventually learn that you can create any number of branches at any commit in the repository, and you can move `HEAD` to wherever you like, allowing you to create 'alternate histories' of the files in your repository.  
+For now we will stick with the single default `master` branch, but as a preview to get you excited: you will eventually learn that you can create any number of branches at any commit in the repository, and you can activate any branch by pointing `HEAD` at it.  This allows you to create 'alternate histories' of the files in your repository.
 
 For example, suppose you have been asked to implement a feature in a program and you would like to experiment with two different approaches.  You could create two branches, one for each approach.  Git will allow you to work on both simultaneously, switching back and forth and making commits to either one at will.  Once you have determined which approach you prefer you will be able to merge the change history of that branch into the master branch—and you will be able to do this even if other team members have been adding commits to the master branch while you have been working on the feature branch, **and** Git will help you make sure that all of this is done without introducing conflicts!
+
+Branches are also what Git uses behind the scenes to keep one repository synchronized with others when working with multiple copies of a repository in, for example, a team project.
 
 But that's all for later.  
 

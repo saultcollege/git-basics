@@ -22,14 +22,14 @@ This tutorial is meant for complete beginners.  The only assumption is that you 
 Throughout this tutorial you will encounter Activity blocks such as this one which you should work through to get hands-on practice.  Note that the activities are cumulative and assume that you have done the previous activities.
 {{< /action >}}
 
-## Part 1 — Just the Basics
+## [Part 1 — Just the Basics]({{< ref "intro-to-version-control" >}})
 
 In this part you will learn the basic concepts and usage of Git for keeping track of changes in a set of files
 
-## Part 2 - Distributed VCS Basics
+## [Part 2 - Branching and Merging]({{< ref "branches-revisited" >}})
 
-In this part you will learn how to use Git to synchronize changes in your set of files across multiple devices and platforms such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/)
+In this part you will learn how to track changes in multiple different 'branches' in a Git repository, and how to merge those changes.
 
-## Part 3 — Beyond the Basics
+## [Part 3 - Distributed VCS Basics]({{< ref "distributed-vcs-basics" >}})
 
-In this part you will learn how to use Git to synchronize changes in your set of files among any number of people working in collaboration.
+In this part you will learn how to synchronize changes in your set of files among any number of people working in collaboration, or across multiple devices and platforms such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/).

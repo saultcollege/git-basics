@@ -14,6 +14,11 @@ By the end of this lesson you should be able to use the `git restore` command to
 - Undo changes in the working tree
 - Revert files in the working tree and/or index to a previous revision
 
+<figure style="width:500px; margin:auto">
+<img src="/images/git-restore.png" alt="Undoing Changes"><br>
+<b>Figure: Undoing Changes</b><br>This figure summarizes the <code>git restore</code> commands discussed below.
+</figure>
+
 ## Undoing Staged Changes
 
 If you have staged changes for a file, you may unstage those changes using the following:

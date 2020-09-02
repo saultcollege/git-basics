@@ -1,4 +1,4 @@
 ---
-title: "Part 2 — Distributed VCS Basics"
+title: "Part 2 — Branching and Merging"
 weight: 20
 ---

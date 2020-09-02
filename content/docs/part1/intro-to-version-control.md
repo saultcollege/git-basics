@@ -25,7 +25,7 @@ Git is a VCS.
 {{< /hint >}}
 
 <div class="footnote">
-<a name="fn1">1</a>:  You may also encounter the term "Source Control Management" (SCM), which means the same thing as "Version Control System" (VCS).
+<a name="fn1">1</a>:  You may also encounter the term "Source Code Management" (SCM), which means the same thing as "Version Control System" (VCS).
 </div>
 
 ## What is a Version Control System?
