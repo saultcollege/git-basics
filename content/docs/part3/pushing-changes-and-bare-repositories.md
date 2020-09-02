@@ -152,4 +152,25 @@ Now try pushing that change from before to this bare repository:
 
 If all went well, you successfully created a bare repository, pushed a change to it from one repository and then pulled that change into another repository.  You could now treat `myrepo.git` as a central repository to which everyone working on this repository must synchronize using `git pull` and `git push`.
 
-In the next lesson you will learn how to host repositories using online hosts such as GitHub.
+## Pull Before You Push
+
+Before moving on, there is one more thing you should know about pushing:  Git will also refuse to push to a repository that has more recent commits than that of your remote branch for that repository.
+
+Imagine the following sequence:
+
+1. You pull the most recent changes from a central remote
+1. You commit some changes to your repository
+1. Meanwhile, another team mate pushes changes they have made to the same central repository
+1. You try to push your changes to the central repository
+
+Or this sequence:
+
+1. You have cloned a central repository to both a work computer and a home computer
+1. You commit and push some changes to the central repository from your work computer
+1. Later, on your home computer you commit some changes and try to push these changes to the central repository
+
+In both of these sequences, the final push will fail.  In the first case, someone else has pushed commits that you have not yet fetched into your remote branch that tracks the remote repository.  In the second case, you yourself pushed commits to the remote from one computer but you have not yet fetched them into the repository on your other computer.
+
+The fix in both cases is to do a pull first.  Once you pull (and resolve any merge conflicts if necessary) then your remote branch and the remote repository will have the same commit history, allowing Git to push your commits to the remote repository without creating conflicts on the remote.  (It may, of course, create conflicts for other people when they pull your changes from the remote.  But they will need to resolve those conflicts in their local repositories before they can push their changes up to the central repository.)
+
+In the next lesson you will learn how to host remote repositories using online services such as GitHub.
