@@ -1,4 +1,4 @@
-baseURL = "https://saultcollege-git-basics.netlify.com"
+baseURL = "https://saultcollege-git-basics.netlify.app"
 languageCode = "en-us"
 title = "Git Basics"
 theme = ["hugo-book"]
